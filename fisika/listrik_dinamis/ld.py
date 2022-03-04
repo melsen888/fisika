@@ -1,6 +1,3 @@
-from traceback import print_tb
-
-
 print ("========================")
 print ("")
 print ("1)Kuat Arus Listrik")
