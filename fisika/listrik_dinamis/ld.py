@@ -19,7 +19,7 @@ if menu == 1 :
     t = int(input("waktu :"))
 
     print ("")
-    print ("Kuat arus listrik",q%t,"A" )
+    print ("Kuat arus listrik",q/t,"A" )
 
 if menu == 2 :
     print ("Dik")
@@ -30,7 +30,7 @@ if menu == 2 :
     a = int(input("Luas Penampang Kawat : "))
 
     print ("")
-    print ("Hambatan Kawat ",p*i%a,"Ohm")
+    print ("Hambatan Kawat ",p*i/a,"Ohm")
 
 if menu == 3 :
     print ("")
@@ -56,7 +56,7 @@ if menu == 3 :
         nr = n*r
         total = rt+nr
         print ("")
-        print("Kuat arus total yang mengalir kerangkaian",ne%total,"(A)")
+        print("Kuat arus total yang mengalir kerangkaian",ne/total,"(A)")
         print ("")
     
     if ggl == 2 :
@@ -70,9 +70,9 @@ if menu == 3 :
         rt = int (input("Hambatan Luar : "))
 
         # 
-        rn = r%n
+        rn = r/n
         total = rt+rn
-        print("Kuat arus total yang mengalir kerangkaian",e%total,"(A)")
+        print("Kuat arus total yang mengalir kerangkaian",e/total,"(A)")
 
 
 
