@@ -43,13 +43,13 @@ if menu == 3 :
         print ("")
 
         n = int (input("banyaknya batrai : "))
-        e = int (input("GGL / V : "))
+        e =float(input("GGL / V : "))
         r = int (input("Hambatan dalam : "))
         rt = int (input("Hambatan Luar : "))
 
         # 
 
-        ne = n*e
+        ne = (n*e)
         nr = n*r
         total = rt+nr
         print ("")
@@ -62,7 +62,7 @@ if menu == 3 :
         print ("")
 
         n = int (input("banyaknya batrai : "))
-        e = int (input("GGL / V : "))
+        e = float (input("GGL / V : "))
         r = int (input("Hambatan dalam : "))
         rt = int (input("Hambatan Luar : "))
 
